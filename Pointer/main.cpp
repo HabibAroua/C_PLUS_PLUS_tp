@@ -13,5 +13,15 @@ int main()
     int y=2;
     bool test=x==y;
     cout << "Test is "<<test <<endl;
+    int tab[10];
+    for (int i=0 ; i<5 ; i++)
+    {
+         cout <<"Tapez la case "<< i <<endl;
+         cin >>tab[i];
+    }
+    for(int i=0 ; i<5 ; i++)
+    {
+         cout <<tab[i] <<" ";
+    }
     return 0;
 }
