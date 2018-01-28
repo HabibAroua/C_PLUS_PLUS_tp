@@ -23,5 +23,12 @@ int main()
     {
          cout <<tab[i] <<" ";
     }
+    cout <<endl;
+    int sum=0;
+    for(int i=0 ; i<5 ; i++)
+    {
+         sum+=tab[i];
+    }
+    cout <<"The sum of element is "<<sum <<endl;
     return 0;
 }
