@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1517010332 source:/home/habib/Documents/c_plus_plus/Test/main.cpp
+	<iostream>
+
+1517098850 source:/home/habib/Documents/c_plus_plus/Test/Test1.cpp
+	<iostream>
+
