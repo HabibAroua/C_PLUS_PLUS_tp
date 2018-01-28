@@ -9,5 +9,9 @@ int main()
     cout << "Hello world! " <<name << endl;
     char a='x';
     cout <<"The char is "<<a <<endl;
+    int x=1;
+    int y=2;
+    bool test=x==y;
+    cout << "Test is "<<test <<endl;
     return 0;
 }
