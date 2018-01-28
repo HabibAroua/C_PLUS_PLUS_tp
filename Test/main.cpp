@@ -12,5 +12,9 @@ int main()
     cin >> b;
     int sum=a+b;
     cout <<"La somme de "<< a << " et "<< b <<" ="<<sum <<endl;
+    sum++;
+    cout <<"Le nouveau valeur est "<<sum <<endl;
+    ++sum;
+    cout <<"Le nouveau valeur est "<<sum <<endl;
     return 0;
 }
