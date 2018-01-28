@@ -16,5 +16,9 @@ int main()
     cout <<"Le nouveau valeur est "<<sum <<endl;
     ++sum;
     cout <<"Le nouveau valeur est "<<sum <<endl;
+    int a1=3;
+    int b1=2;
+    b1=a1++;
+    cout<<++b1;
     return 0;
 }
