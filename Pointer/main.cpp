@@ -30,5 +30,23 @@ int main()
          sum+=tab[i];
     }
     cout <<"The sum of element is "<<sum <<endl;
+    int M[5][5];
+    for(int i=0 ; i<5 ; i++)
+    {
+         for(int j=0 ; j<5 ; j++)
+         {
+             cout<<"M["<<i<<"]["<<j<<"]"<<endl;
+             cin >>M[i][j];
+         }
+    }
+    //Showing the matrix
+    for(int i=0 ; i<5 ; i++)
+    {
+         for(int j=0 ; j<5 ; j++)
+         {
+             cout <<M[i][j]<<" ";
+         }
+         cout << endl;
+    }
     return 0;
 }
