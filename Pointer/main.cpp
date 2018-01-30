@@ -48,5 +48,12 @@ int main()
          }
          cout << endl;
     }
+
+    //Pointer
+    int score = 5;
+    int *scorePtr;
+    scorePtr = &score;
+    cout << scorePtr << endl;
+
     return 0;
 }
