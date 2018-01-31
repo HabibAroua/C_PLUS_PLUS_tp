@@ -4,10 +4,9 @@ using namespace std;
 
 int main()
 {
-    int a=5;
-    int *b;
-    b=&a;
-    b--;
-    cout <<b << endl;
+    int *p = new int;
+    *p = 5;
+    *p=*p+1;
+    cout << *p<<endl;
     return 0;
 }
