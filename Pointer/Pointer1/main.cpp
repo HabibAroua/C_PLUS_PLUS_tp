@@ -15,6 +15,23 @@ int main()
     cout << *p1 << endl; // use value
     delete p1; // free up the memory
     cout << *p1 <<endl;
+    //array
+    int *tab = NULL; // Pointer initialized with null
+    tab = new int[20]; // Request memory
+    for(int i=0 ; i<5 ; i++)
+    {
+        cout <<"enter case "<<i<<endl;
+        cin >>tab[i];
+    }
 
+    for(int i=0 ; i<5 ; i++)
+    {
+         cout <<tab[i]<<" ";
+    }
+
+    cout <<endl;
+
+    delete [] tab;// Delete array pointed to by tab
+    cout <<tab[1] ;
     return 0;
 }
