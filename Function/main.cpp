@@ -2,13 +2,15 @@
 
 using namespace std;
 
-void printSomething()
-{
-  cout << "Hi there!";
-}
+void printSomething();
 
 int main()
 {
     printSomething();
     return 0;
+}
+
+void printSomething()
+{
+  cout << "Hi there!";
 }
