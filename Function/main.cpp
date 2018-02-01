@@ -7,6 +7,7 @@ void printSomething();
 void somme(int a , int b);
 double sqr(int x);
 
+
 int main()
 {
     printSomething();
@@ -17,7 +18,6 @@ int main()
     cout <<endl;
     cout << rand();
     cout <<endl;
-
     for (int x = 1; x <= 10; x++)
     {
          cout << 1 + (rand() % 6) << endl;
@@ -30,6 +30,9 @@ int main()
     {
         cout << 1 + (rand() % 6) << endl;
     }
+    cout <<endl;
+//    printSum(13);
+
     return 0;
 }
 
@@ -47,4 +50,11 @@ void somme(int a , int b)
 double sqr(int x)
 {
    return x*x;
+}
+
+
+
+void printSum(int a, int b = 4)
+{
+ cout << a + b << endl;
 }
