@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -13,6 +14,8 @@ int main()
     somme(2,3);
     cout <<endl;
     cout <<sqr(5) <<endl;
+    cout <<endl;
+    cout << rand();
     return 0;
 }
 
