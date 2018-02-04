@@ -52,7 +52,10 @@ double sqr(int x)
    return x*x;
 }
 
-
+float sqr(float x)
+{
+    return x*x;
+}
 
 void printSum(int a, int b = 4)
 {
