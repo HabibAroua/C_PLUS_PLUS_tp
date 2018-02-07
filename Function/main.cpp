@@ -7,6 +7,7 @@ void printSomething();
 void somme(int a , int b);
 double sqr(int x);
 int fact(int x);
+void printArray(int arr[], int size);
 
 int main()
 {
@@ -33,7 +34,9 @@ int main()
     cout <<endl;
     //    printSum(13);
     cout <<"the fact of 5 is "<<fact(5)<<endl;
-
+    //use integer size
+     int myArr[3]= {42, 33, 88};
+    printArray(myArr, 3);
     return 0;
 }
 
@@ -72,5 +75,13 @@ int fact(int x)
      else
      {
          return x * fact(x - 1);
+     }
+}
+
+void printArray(int arr[], int size)
+{
+     for(int x=0; x<size; x++)
+     {
+          cout <<arr[x] <<" ";
      }
 }
