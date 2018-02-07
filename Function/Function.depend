@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1518036433 source:/home/habib/Documents/c_plus_plus/Function/main.cpp
+	<iostream>
+	<cstdlib>
+

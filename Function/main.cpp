@@ -6,7 +6,7 @@ using namespace std;
 void printSomething();
 void somme(int a , int b);
 double sqr(int x);
-
+int fact(int x);
 
 int main()
 {
@@ -31,7 +31,8 @@ int main()
         cout << 1 + (rand() % 6) << endl;
     }
     cout <<endl;
-//    printSum(13);
+    //    printSum(13);
+    cout <<"the fact of 5 is "<<fact(5)<<endl;
 
     return 0;
 }
@@ -60,4 +61,16 @@ float sqr(float x)
 void printSum(int a, int b = 4)
 {
  cout << a + b << endl;
+}
+
+int fact(int x)
+{
+     if (x == 1)
+     {
+         return 1;
+     }
+     else
+     {
+         return x * fact(x - 1);
+     }
 }
