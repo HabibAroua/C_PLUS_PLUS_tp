@@ -7,6 +7,7 @@ void printSomething();
 void somme(int a , int b);
 double sqr(int x);
 int fact(int x);
+void calcul(int *x);
 void printArray(int arr[], int size);
 
 int main()
@@ -37,6 +38,10 @@ int main()
     //use integer size
      int myArr[3]= {42, 33, 88};
     printArray(myArr, 3);
+    //
+    int n=5;
+    calcul(&n);
+    cout <<"The value of n is "<<n<<endl;
     return 0;
 }
 
@@ -84,4 +89,11 @@ void printArray(int arr[], int size)
      {
           cout <<arr[x] <<" ";
      }
+}
+
+void calcul(int *x)
+{
+   int aux=*x;
+   aux++;
+   *x=aux;
 }
