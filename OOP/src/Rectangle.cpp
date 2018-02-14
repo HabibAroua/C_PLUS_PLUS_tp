@@ -36,4 +36,16 @@ class Rectangle
     {
        this->y=y;
     }
+
+    public :
+    int perimater()
+    {
+        return (this->x+this->y)*2;
+    }
+
+    public :
+    int surface()
+    {
+         return (this->x*this->y);
+    }
 };

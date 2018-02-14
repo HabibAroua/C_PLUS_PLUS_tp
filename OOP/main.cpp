@@ -20,9 +20,11 @@ int main()
     cout <<" le valeur de x est "<<r.getX()<<endl;
     cout <<" le valeur de y est "<<r.getY()<<endl;
     r.setX(3);
-    r.setY(-9);
+    r.setY(3);
     cout <<" le valeur de x est "<<r.getX()<<endl;
     cout <<" le valeur de y est "<<r.getY()<<endl;
+    cout <<"la surface est "<<r.surface()<<endl;
+    cout <<"Le perimetre est "<<r.perimater()<<endl;
 
     return 0;
 }
