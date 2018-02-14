@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1518631300 source:/home/habib/Documents/c_plus_plus/OOP/main.cpp
+	<iostream>
+	"src/BankAccount.cpp"
+
+1518631117 source:/home/habib/Documents/c_plus_plus/OOP/src/BankAccount.cpp
+	<iostream>
+
+1518631387 /home/habib/Documents/c_plus_plus/OOP/src/BankAccount.cpp
+	<iostream>
+
