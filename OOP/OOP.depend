@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1518634846 source:/home/habib/Documents/c_plus_plus/OOP/main.cpp
+1518873060 source:/home/habib/Documents/c_plus_plus/OOP/main.cpp
 	<iostream>
 	"src/BankAccount.cpp"
 	"src/Rectangle.cpp"
+	"MyClass.h"
 
 1518631387 source:/home/habib/Documents/c_plus_plus/OOP/src/BankAccount.cpp
 	<iostream>
@@ -15,4 +16,9 @@
 
 1518634782 /home/habib/Documents/c_plus_plus/OOP/src/Rectangle.cpp
 	<iostream>
+
+1518778316 source:/home/habib/Documents/c_plus_plus/OOP/MyClass.cpp
+	"MyClass.h"
+
+1518778316 /home/habib/Documents/c_plus_plus/OOP/MyClass.h
 

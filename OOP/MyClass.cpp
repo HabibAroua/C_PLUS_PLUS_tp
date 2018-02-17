@@ -1,6 +1,7 @@
 #include "MyClass.h"
-
+#include <iostream>
+using namespace std ;
 MyClass::MyClass()
 {
-    //ctor
+    cout<< "Header object "<<endl;
 }

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "src/BankAccount.cpp"
 #include "src/Rectangle.cpp"
+#include "MyClass.h"
 
 using namespace std;
 
@@ -25,6 +26,7 @@ int main()
     cout <<" le valeur de y est "<<r.getY()<<endl;
     cout <<"la surface est "<<r.surface()<<endl;
     cout <<"Le perimetre est "<<r.perimater()<<endl;
-
+    //using header
+    MyClass obj;
     return 0;
 }
