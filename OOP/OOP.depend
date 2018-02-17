@@ -17,8 +17,10 @@
 1518634782 /home/habib/Documents/c_plus_plus/OOP/src/Rectangle.cpp
 	<iostream>
 
-1518778316 source:/home/habib/Documents/c_plus_plus/OOP/MyClass.cpp
+1518902787 source:/home/habib/Documents/c_plus_plus/OOP/MyClass.cpp
 	"MyClass.h"
+	<iostream>
 
-1518778316 /home/habib/Documents/c_plus_plus/OOP/MyClass.h
+1518902915 /home/habib/Documents/c_plus_plus/OOP/MyClass.h
+	<iostream>
 

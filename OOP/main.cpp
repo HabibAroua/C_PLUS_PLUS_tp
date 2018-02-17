@@ -28,5 +28,6 @@ int main()
     cout <<"Le perimetre est "<<r.perimater()<<endl;
     //using header
     MyClass obj;
+    obj.affiche();
     return 0;
 }
