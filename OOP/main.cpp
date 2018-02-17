@@ -27,7 +27,9 @@ int main()
     cout <<"la surface est "<<r.surface()<<endl;
     cout <<"Le perimetre est "<<r.perimater()<<endl;
     //using header
-    MyClass obj;
+    MyClass obj(5);
     obj.affiche();
+    obj.succ();
+    cout <<"the value is "<<obj.getX()<<endl;
     return 0;
 }
