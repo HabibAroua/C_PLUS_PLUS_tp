@@ -3,6 +3,7 @@
 using namespace std ;
 MyClass::MyClass()
 {
+
     cout<< "Header object "<<endl;
 
 }

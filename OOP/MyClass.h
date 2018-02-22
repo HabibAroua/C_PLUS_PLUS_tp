@@ -9,6 +9,8 @@ class MyClass
     public :
     int x;
 
+    static int nb;
+
     public:
         MyClass();
     protected:
