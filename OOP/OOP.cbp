@@ -40,6 +40,7 @@
 		<Unit filename="MyClass.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/BankAccount.cpp" />
+		<Unit filename="src/MyClass2.cpp" />
 		<Unit filename="src/Rectangle.cpp" />
 		<Extensions>
 			<code_completion />
