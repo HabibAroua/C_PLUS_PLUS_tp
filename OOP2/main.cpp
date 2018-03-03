@@ -18,14 +18,18 @@ class Cat
 
 int Cat::getAge()
 {
+    return age;
 }
 
-int Cat::getName()
+string Cat::getName()
 {
+    return name;
 }
 
 void Cat::Init(string na , int ag)
 {
+    name=na;
+    age=ag;
 }
 
 void Cat::Intreduce()
@@ -34,6 +38,7 @@ void Cat::Intreduce()
 
 void Cat::Meow()
 {
+    cout <<"Mewo "<<endl;
 }
 
 int main()
