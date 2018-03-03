@@ -9,6 +9,7 @@ class Cat
      string name;
 
      public:
+     Cat(string na  , int ag);
      int getAge();
      string getName();
      void Init(string na , int ag);
@@ -32,6 +33,11 @@ void Cat::Init(string na , int ag)
     age=ag;
 }
 
+Cat::Cat(string na , int ag)
+{
+    Init(na,ag);
+}
+
 void Cat::Intreduce()
 {
      cout <<"I'm "<<name <<" my age is "<<age <<endl;
@@ -44,8 +50,7 @@ void Cat::Meow()
 
 int main()
 {
-    Cat cat;
-    cat.Init("Mimi",6);
+    Cat cat("Mimi",6);
     cout <<endl;
     cout <<"Introduce yourseflf !!"<<endl;
     cat.Intreduce();
