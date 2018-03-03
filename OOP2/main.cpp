@@ -9,7 +9,32 @@ class Cat
      string name;
 
      public:
+     int getAge();
+     string getName();
+     void Init(string na , int ag);
+     void Meow();
+     void Intreduce();
 };
+
+int Cat::getAge()
+{
+}
+
+int Cat::getName()
+{
+}
+
+void Cat::Init(string na , int ag)
+{
+}
+
+void Cat::Intreduce()
+{
+}
+
+void Cat::Meow()
+{
+}
 
 int main()
 {
