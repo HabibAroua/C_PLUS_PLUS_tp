@@ -34,6 +34,7 @@ void Cat::Init(string na , int ag)
 
 void Cat::Intreduce()
 {
+     cout <<"I'm "<<name <<" my age is "<<age <<endl;
 }
 
 void Cat::Meow()
@@ -43,6 +44,11 @@ void Cat::Meow()
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    Cat cat;
+    cat.Init("Mimi",6);
+    cout <<endl;
+    cout <<"Introduce yourseflf !!"<<endl;
+    cat.Intreduce();
+    cat.Meow();
     return 0;
 }
