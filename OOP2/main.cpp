@@ -3,8 +3,6 @@
 
 using namespace std;
 
-
-
 int Cat::getAge()
 {
     return age;
